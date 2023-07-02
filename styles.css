@@ -51,33 +51,20 @@ body {
     }
 }
 
-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-button:active {
-    background-color: #3e8e41;
+#container {
+    text-align: center; /* Center align the items */
 }
 
 .item {
     display: inline-block;
+    vertical-align: top; /* Align items to the top */
     margin-right: 20px;
-    opacity: 0; /* Initially set the opacity to 0 */
-    animation: fadeIn 1s ease-in-out forwards; /* Apply the fade-in animation */
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
 }
 
 .banner {
-    background-color: #4CAF50;
+    background-color: #FF0000;
     color: white;
     padding: 10px;
     font-size: 16px;
@@ -94,7 +81,7 @@ button:active {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #FF0000;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -104,10 +91,9 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #ffffff;
 }
 
 button:active {
-    background-color: #3e8e41;
+    background-color: #ffffff;
 }
-
